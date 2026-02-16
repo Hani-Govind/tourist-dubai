@@ -1,0 +1,295 @@
+body{
+    background-color: black;
+}
+    .open-slide{
+
+    background-image: url("DUBAI\ H.jpg");
+    color:white;
+    display:flex;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    flex-direction: column;
+    animation: round linear;
+    animation-timeline: view();
+    animation-range: exit 40%;
+
+    
+}
+.open-slide h1{
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20%;
+    text-decoration: dotted underline;
+    text-decoration-color: antiquewhite;
+}
+.open-slide p{
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-wrap: balance;
+    width: 500px;
+    height: 170px;
+}
+.open-slide p1{
+    width: 115px; height: 20px ;
+   font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: seashell;
+    border:2px solid seashell;
+    border-radius: 20px;
+}
+.places h1 {
+    font-family: 'Tilt Prism', sans-serif;
+  font-size: 60px;
+  background: linear-gradient(135deg, #d8b4f8, #d980fa, #ffb199);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 50px 0;
+  
+ 
+    
+}
+
+.contento > div,
+.contente > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(45, 44, 44, 0.5);
+  border-radius: 20px;
+  color: thistle;
+}
+
+
+.contento img,
+.contente img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.contente > div {
+  flex-direction: row-reverse;
+}
+
+
+.contento h2, .contente h2 {
+  margin-bottom: 10px;
+}
+.contento p, .contente p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+
+    
+.bk{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;
+    image-orientation: from-image;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+    
+    
+}
+.dma{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.mf{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.dm{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.ds{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.bur{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.imga{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 5%;
+
+}
+.jf{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.mg{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.pj{
+    color: thistle;
+    background-color:rgba(45, 44, 44, 0.5);
+    margin-bottom: 2%;
+    border:5px solid transparent;
+    border-radius: 20px;animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+.official-link{
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 50%;
+
+
+}
+.official-link:hover {
+    transform : scale(1.05);
+    box-shadow : 0 4px 10px rgba( 225,225,225,0.5);
+    
+}
+.bk:hover{ transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(195,177,225,0.6);
+    
+}
+.pj:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(195,177,225,0.6);
+}
+.dm:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(218,207,93,0.6);
+}
+.ds:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(218,207,93,0.6);
+}
+.dma:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(218,207,93,0.6);
+}
+.mf:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(195, 177, 225, 0.6);
+}
+.imgw:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(195, 177, 225, 0.6);
+}
+.bur:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(218,207,93,0.6);
+}
+.jm:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px  rgba(218,207,93,0.6) ;
+}
+.mg:hover{
+     transform: scale(0.95);
+    box-shadow: 6px 6px 6px rgba(195, 177, 225, 0.6);
+}
+@keyframes appear{
+    from{ opacity:0;
+    scale:0.8;
+
+}
+to { opacity:1;
+    scale:1;}
+}
+@keyframes round{
+    from{ border-radius:0px;
+    scale:1; opacity:1;}
+    to{
+        border-radius:20000px;
+        scale:1.05;
+        opacity: 0.5;
+    }
+}
+ .footer-content {
+    color: white;
+    transition: background 0.4s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: large;
+    text-decoration: dotted underline;
+
+}
+
+.footer-content:hover {
+    background: linear-gradient(to right, 
+        rgba(128, 0, 128, 0.9),   
+        rgba(255, 105, 180, 0.9),  
+        rgba(68, 92, 247, 0.9)   
+    );
+    color: white;
+    text-decoration: underline;
+}
